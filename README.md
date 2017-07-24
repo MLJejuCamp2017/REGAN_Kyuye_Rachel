@@ -51,48 +51,59 @@ where o represents inidividual object while f and g are functions dealing with r
 import pandads
 import tensorflow as tf 
 ```
-### Struture
+### Git Struture
+1. DataSet : all types of dataset 
+2. REGAN : code of main model 
+3. cloudML : code to train in cloud ML Engine enviroment
+4. local : code to train local Engine enviroment
+5. 230 seminar ppt: Cognitive science behind ML_Kyuye 07.07.pdf
+6. README.md
+
 
 
 ### Installing
 
 1. Dataset 
 
-    1. raw data 
+    1. raw data <p>
     
       - twitter dataset with emotion tag : twitter_emotion_v2(p,n,N).csv
       - twitter dataset with emotion tag : twitter_emotion_v2(p,n,N).txt
+    <p>
+    <p>
     
     2. targeted emotion all sentence among dataset 
     
       - Positive emotion : Positive.tsv
       - Negative emotion : Negative.tsv
       - Neutral emotion : Neutral.tsv
-      
+    <p>
+    <p>
+    
     3. tageted emotion one sentence among dataset 
     
       - Positive sentence :
-      men always remember love because of romance only The best love is the kind that awaken the soul that makes us reach for   
-      more that plants the fire in our hearts and brings peace to our minds That's what I hope to give you forever The greatest 
-      happiness of life is the declaration that we are loved loved for myself or rather loved in hurt of myself The best and 
-      most beautiful things in this world cannot be seen or even heard but must be felt with the heart
+      *men always remember love because of romance only The best love is the kind that awaken the soul that makes us reach for        more that plants the fire in our hearts and brings peace to our minds That's what I hope to give you forever The 
+      greatest happiness of life is the declaration that we are loved loved for myself or rather loved in hurt of myself The 
+      best and most beautiful things in this world cannot be seen or even heard but must be felt with the heart*
      
      - Negative sentence :
-      My sadness has become an addiction when i am not sad i feel lost I start to panic trying to find my way back which leads       me back to my original state You were rarely wishing for the end of pain the monster said your own pain end to how it you 
+      *My sadness has become an addiction when i am not sad i feel lost I start to panic trying to find my way back which leads       me back to my original state You were rarely wishing for the end of pain the monster said your own pain end to how it you 
       It is the most human wish of all everyone in life is gonna hurt you you just have to figure out which people are worth 
       the pain The World is mad and the people are sad The saddest thing is when you are feeling real down you look around and 
       realize that there is no shoulder for you I guess that is what saying goodbye is always like jumping off an edge The    
-      worst art is making the choice to do it Once you are in the air there is nothing you can do but let go
+      worst art is making the choice to do it Once you are in the air there is nothing you can do but let go*
    
     - Neutral sentence : 
-     You cannot visit the past but thanks to modern photography you can try to create it Just ask I was a student at a school 
+     *You cannot visit the past but thanks to modern photography you can try to create it Just ask I was a student at a school 
      and picture her travel across returned to the site exactly 30 years later The picture decided to create some of her 
      favorite picture from back in the day I thought it would be a fun picture project for my YouTube channel tells I was 
      amazed at how little these places had changed Before she left he finish out her old photo albums and scan favorite images 
      Once in she successful track down the exact locations and follow her pose from 30 years previous creating new versions of 
-     her favorite she has showed the then and now picture on her YouTube
+     her favorite she has showed the then and now picture on her YouTube*
   
-  
+    <p>
+    <p>
      4. train dataset 
       - training output : train_set.txt
       - embeddings(key:value) : word2vec_map.json
