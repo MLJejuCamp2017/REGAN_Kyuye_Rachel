@@ -59,15 +59,18 @@ import tensorflow as tf
 1. Dataset 
 
     1. raw data 
+    
       - twitter dataset with emotion tag : twitter_emotion_v2(p,n,N).csv
       - twitter dataset with emotion tag : twitter_emotion_v2(p,n,N).txt
     
     2. targeted emotion all sentence among dataset 
+    
       - Positive emotion : Positive.tsv
       - Negative emotion : Negative.tsv
       - Neutral emotion : Neutral.tsv
       
     3. tageted emotion one sentence among dataset 
+    
       - Positive sentence :
       men always remember love because of romance only The best love is the kind that awaken the soul that makes us reach for   
       more that plants the fire in our hearts and brings peace to our minds That's what I hope to give you forever The greatest 
@@ -208,7 +211,7 @@ Please read [READEME.mg](https://github.com/MLJejuCamp2017/REGAN_Kyuye_Rachel) f
 
 ## Acknowledgments
 * Adam Santoro, David Raposo, David G.T. Barrett, Mateusz Malinowski, Razvan Pascanu, Peter Battaglia, Timothy Lillicrap,[A simple neural network module for relational reasoning](https://arxiv.org/abs/1706.01427)
-* Jason Weston, Antoine Bordes, Sumit Chopra, Tomas Mikolov, Alexander M. Rush, Bart van Merriënboer, ["Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks"[(https://arxiv.org/abs/1502.05698)
+* Jason Weston, Antoine Bordes, Sumit Chopra, Tomas Mikolov, Alexander M. Rush, Bart van Merriënboer, ["Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks"](https://arxiv.org/abs/1502.05698)
 * Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, Rob Fergus, ["End-To-End Memory Networks"](https://arxiv.org/abs/1503.08895)
 
 
