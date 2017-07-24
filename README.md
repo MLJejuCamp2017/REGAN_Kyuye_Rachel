@@ -2,7 +2,7 @@
 # Relational GAN (REGAN) : Generating affective sentence using Relation Networks
 
 
-- ### Base theory : Relation Network published by DeepMind, 2017
+### Base theory : Relation Network published by DeepMind, 2017
 [Relational Reasoning](https://www.python.org/downloads/release/python-2712) is learning to understand relations between different objects(ideas). This is considered an essential characteristic of intelligence.To this end, Relation Networks (RNs) are proposed to solve problems hinging on inherently relational concepts. To be more specific, RN is a composite function:
 
 <ul><img src="https://github.com/gitlimlab/Relation-Network-Tensorflow/blob/master/figure/rn_eq.png", width=300, align="middle"></ul>
@@ -31,7 +31,7 @@ where o represents inidividual object while f and g are functions dealing with r
 - Conclusions
 
 
-- ### Prerequisites
+### Prerequisites
 
 <ul>
 <li><a href="https://www.python.org/downloads/release/python-2712">Python 2.7.12</a></li>
@@ -47,7 +47,7 @@ where o represents inidividual object while f and g are functions dealing with r
 import pandads
 import tensorflow as tf 
 ```
-- ### Git Struture
+### Git Struture
 1. DataSet : all types of dataset 
 2. REGAN : code of main model 
 3. cloudML : code to train in cloud ML Engine enviroment
@@ -57,7 +57,7 @@ import tensorflow as tf
 
 
 
-- ### Installing
+### Installing
 
 1. Dataset 
 
@@ -158,7 +158,7 @@ word2vec_map.json
 
 ```
 
-- ### Running 
+### Running 
 
 1. Experiment 1 : generating sentence based on 3 emotion label(positive,negative,netural)
     - 3emo_raw.sh
@@ -181,7 +181,7 @@ word2vec_map.json
 
 
 
-- ### Result (Modifying)
+### Result (Modifying)
 
 1. Experiment 1 : generating sentence based on 3 emotion label(positive,negative,netural)
 2. Experiment 2-1 : generating sentence based on 1 emotion all dataset 
@@ -199,7 +199,7 @@ Give an example
 ```
 
 
-- ## Built With
+## Built With
 
 * [Tensorboard](https://www.tensorflow.org/get_started/summaries_and_tensorboard) - Visualizing Learning
 * [CloudML](https://cloud.google.com/ml-engine/) - Managed Scalable Machine Learning 
@@ -210,13 +210,13 @@ Give an example
 Please read [READEME.mg](https://github.com/MLJejuCamp2017/REGAN_Kyuye_Rachel) for details on our code of conduct, and the process for submitting pull requests to us.
 
 
-- ## Authors
+## Authors
 
 * **Kyuye Song(Rahcel)** - *Initial work* - [PurpleBooth](https://github.com/kyuye)
 * **Chanwoo Lee(Jacob)** - *Initial work* - [PurpleBooth](https://github.com/leechanwoo)
 
 
-- ## Acknowledgments
+## Acknowledgments
 * Adam Santoro, David Raposo, David G.T. Barrett, Mateusz Malinowski, Razvan Pascanu, Peter Battaglia, Timothy Lillicrap,[A simple neural network module for relational reasoning](https://arxiv.org/abs/1706.01427)
 * Jason Weston, Antoine Bordes, Sumit Chopra, Tomas Mikolov, Alexander M. Rush, Bart van Merriënboer, ["Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks"](https://arxiv.org/abs/1502.05698)
 * Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, Rob Fergus, ["End-To-End Memory Networks"](https://arxiv.org/abs/1503.08895)
