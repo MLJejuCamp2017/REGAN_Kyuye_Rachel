@@ -22,7 +22,7 @@ where o represents inidividual object while f and g are functions dealing with r
 3 Where is Mary?        bathroom        1
 
 
-- ### Model : Relational GAN (REGAN) to generate affective sentnece
+### Model : Relational GAN (REGAN) to generate affective sentnece
 
 - Motivation
 - Expected output,goal
@@ -78,19 +78,19 @@ import tensorflow as tf
     
     3. tageted emotion one sentence among dataset 
     
-      - Positive sentence :
+      - Positive sentence :<p>
       *men always remember love because of romance only The best love is the kind that awaken the soul that makes us reach for        more that plants the fire in our hearts and brings peace to our minds That's what I hope to give you forever The 
       greatest happiness of life is the declaration that we are loved loved for myself or rather loved in hurt of myself The 
       best and most beautiful things in this world cannot be seen or even heard but must be felt with the heart*
      
-     - Negative sentence :
+     - Negative sentence :<p>
       *My sadness has become an addiction when i am not sad i feel lost I start to panic trying to find my way back which leads       me back to my original state You were rarely wishing for the end of pain the monster said your own pain end to how it you 
       It is the most human wish of all everyone in life is gonna hurt you you just have to figure out which people are worth 
       the pain The World is mad and the people are sad The saddest thing is when you are feeling real down you look around and 
       realize that there is no shoulder for you I guess that is what saying goodbye is always like jumping off an edge The    
       worst art is making the choice to do it Once you are in the air there is nothing you can do but let go*
    
-    - Neutral sentence : 
+    - Neutral sentence : <p>
      *You cannot visit the past but thanks to modern photography you can try to create it Just ask I was a student at a school 
      and picture her travel across returned to the site exactly 30 years later The picture decided to create some of her 
      favorite picture from back in the day I thought it would be a fun picture project for my YouTube channel tells I was 
