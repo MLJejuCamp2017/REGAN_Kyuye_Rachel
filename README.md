@@ -1,7 +1,3 @@
-# Modifying...
-
-
-
 ### Kyuye Song's_Machine Learning Camp in Jeju, 2017 
 # Relational GAN (REGAN) : Generating affective sentence using Relation Networks
 
@@ -185,7 +181,7 @@ word2vec_map.json
 
 
 
-### Result 
+### Result (Modifying)
 
 1. Experiment 1 : generating sentence based on 3 emotion label(positive,negative,netural)
 2. Experiment 2-1 : generating sentence based on 1 emotion all dataset 
