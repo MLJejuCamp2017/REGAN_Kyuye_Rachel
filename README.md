@@ -7,40 +7,6 @@
 
 
 ## Base theory : Relation Network published by DeepMind, 2017
-<li><a href="https://www.python.org/downloads/release/python-2712">Relational Reasoning </li>
-is learning to understand relations between different objects(ideas). This is considered an essential characteristic of intelligence.To this end, Relation Networks (RNs) are proposed to solve problems hinging on inherently relational concepts. To be more specific, RN is a composite function:
-
-<img src="https://github.com/gitlimlab/Relation-Network-Tensorflow/blob/master/figure/rn_eq.png", width="700">
-
-
-The Relational Network for O (O is the set of objects you want to learn relations of) is a function fɸ.
-gθ is another function that takes two objects :oi , and oj. The output of gθ is the ‘relation’ that we are concerned about.
-Σ i,j means , calculate gθ for all possible pairs of objects, and then sum them up.
-where o represents inidividual object while f and g are functions dealing with relational reasoning which are implemented as MLPs. Note that objects mentioned here are not necessary to be real objects; instead, they could consist of the background, particular physical objects, textures, conjunctions of physical objects, etc. In the implementation, objects are defined by convoluted features. 
-
-
-[bAbi task using Relation Network]
-<li><a href="https://github.com/facebook/bAbI-tasks"> bAbi Dataset</li>
-
-1 Mary moved to the bathroom.
-2 John went to the hallway.
-3 Where is Mary?        bathroom        1
-4 Daniel went back to the hallway.
-5 Sandra moved to the garden.
-6 Where is Daniel?      hallway 4
-7 John moved to the office.
-8 Sandra journeyed to the bathroom.
-9 Where is Daniel?      hallway 4
-10 Mary moved to the hallway.
-11 Daniel travelled to the office.
-12 Where is Daniel?     office  11
-13 John went back to the garden.
-14 John moved to the bedroom.
-15 Where is Sandra?     bathroom        8
-1 Sandra travelled to the office.
-2 Sandra went to the bathroom.
-3 Where is Sandra?      bathroom        2
-
 
 
 ## Model : Relational GAN (REGAN) to generate affective sentnece
@@ -52,7 +18,7 @@ where o represents inidividual object while f and g are functions dealing with r
 ### Prerequisites
 
 <ul>
-<li><a href="https://www.python.org/downloads/release/python-2712">Python 2.7.12</li>
+<li><a href="https://www.python.org/downloads/release/python-2712">Python 2.7.12</a></li>
 <li><a href="https://github.com/tensorflow/tensorflow/tree/r1.0">Tensorflow 1.0.0</a></li>
 <li><a href="http://www.numpy.org/">NumPy</a></li>
 <li><a href="https://github.com/pandas-dev/pandas">pandas(powerful data analysis,manipulation library for Python)</a></li>
