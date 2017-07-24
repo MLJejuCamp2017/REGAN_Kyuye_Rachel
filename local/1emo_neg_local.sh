@@ -3,4 +3,4 @@ python model_1emo_local.py \
 --emotion_data=/dataset/Negative.tsv \
 --word_vec_map_file=/dataset/word2vec_map.json \
 --log_dir=./logs/ \
---gpu_num=4
+--gpu_num=2

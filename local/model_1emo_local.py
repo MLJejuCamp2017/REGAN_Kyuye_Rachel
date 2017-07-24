@@ -259,11 +259,13 @@ class WassersteinGAN(object):
                 
                 # print("generator update")
                 summary, _ = self.sess.run([merged, self.gen_train_op], feed_dict)
-
+                if itr%50 ==0:
+                    print("iteration:",itr)
+                    
             g_loss_val, d_loss_val = self.sess.run(
                 [self.gen_loss, self.disc_loss], feed_dict)
             self.saver.save(self.sess, "./logs/regan_local")
-            summary_writer.add_summary(summary, itr)
+            summary_writer.add_summary(summary, epoch)
             print("Step: %d, generator loss: %g, discriminator_loss: %g" % (itr+itr*FLAGS.epoch, g_loss_val, d_loss_val))
 
 
