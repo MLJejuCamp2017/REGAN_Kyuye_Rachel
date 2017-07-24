@@ -58,51 +58,50 @@ import tensorflow as tf
 
 1. Dataset 
 
-  1. raw data 
-    - twitter dataset with emotion tag : twitter_emotion_v2(p,n,N).csv
-    - twitter dataset with emotion tag : twitter_emotion_v2(p,n,N).txt
+    1. raw data 
+      - twitter dataset with emotion tag : twitter_emotion_v2(p,n,N).csv
+      - twitter dataset with emotion tag : twitter_emotion_v2(p,n,N).txt
     
-  2. targeted emotion all sentence among dataset 
-    - Positive emotion : Positive.tsv
-    - Negative emotion : Negative.tsv
-    - Neutral emotion : Neutral.tsv
-    
-  3. tageted emotion one sentence among dataset 
-    - Positive sentence :
-     men always remember love because of romance only The best love is the kind that awaken the soul that makes us reach for   
-     more that plants the fire in our hearts and brings peace to our minds That's what I hope to give you forever The greatest 
-     happiness of life is the declaration that we are loved loved for myself or rather loved in hurt of myself The best and 
-     most beautiful things in this world cannot be seen or even heard but must be felt with the heart
+    2. targeted emotion all sentence among dataset 
+      - Positive emotion : Positive.tsv
+      - Negative emotion : Negative.tsv
+      - Neutral emotion : Neutral.tsv
+      
+    3. tageted emotion one sentence among dataset 
+      - Positive sentence :
+      men always remember love because of romance only The best love is the kind that awaken the soul that makes us reach for   
+      more that plants the fire in our hearts and brings peace to our minds That's what I hope to give you forever The greatest 
+      happiness of life is the declaration that we are loved loved for myself or rather loved in hurt of myself The best and 
+      most beautiful things in this world cannot be seen or even heard but must be felt with the heart
      
-    - Negative sentence :
-    My sadness has become an addiction when i am not sad i feel lost I start to panic trying to find my way back which leads me 
-    back to my original state You were rarely wishing for the end of pain the monster said your own pain end to how it you It 
-    is the most human wish of all everyone in life is gonna hurt you you just have to figure out which people are worth the 
-    pain The World is mad and the people are sad The saddest thing is when you are feeling real down you look around and 
-    realize that there is no shoulder for you I guess that is what saying goodbye is always like jumping off an edge The worst 
-    part is making the choice to do it Once you are in the air there is nothing you can do but let go
+     - Negative sentence :
+      My sadness has become an addiction when i am not sad i feel lost I start to panic trying to find my way back which leads       me back to my original state You were rarely wishing for the end of pain the monster said your own pain end to how it you 
+      It is the most human wish of all everyone in life is gonna hurt you you just have to figure out which people are worth 
+      the pain The World is mad and the people are sad The saddest thing is when you are feeling real down you look around and 
+      realize that there is no shoulder for you I guess that is what saying goodbye is always like jumping off an edge The    
+      worst art is making the choice to do it Once you are in the air there is nothing you can do but let go
    
-   - Neutral sentence : 
-    You cannot visit the past but thanks to modern photography you can try to create it Just ask I was a student at a school 
-    and picture her travel across returned to the site exactly 30 years later The picture decided to create some of her 
-    favorite picture from back in the day I thought it would be a fun picture project for my YouTube channel tells I was amazed 
-    at how little these places had changed Before she left he finish out her old photo albums and scan favorite images Once in 
-    she successful track down the exact locations and follow her pose from 30 years previous creating new versions of her 
-    favorite she has showed the then and now picture on her YouTube
+    - Neutral sentence : 
+     You cannot visit the past but thanks to modern photography you can try to create it Just ask I was a student at a school 
+     and picture her travel across returned to the site exactly 30 years later The picture decided to create some of her 
+     favorite picture from back in the day I thought it would be a fun picture project for my YouTube channel tells I was 
+     amazed at how little these places had changed Before she left he finish out her old photo albums and scan favorite images 
+     Once in she successful track down the exact locations and follow her pose from 30 years previous creating new versions of 
+     her favorite she has showed the then and now picture on her YouTube
   
   
-  4. train dataset 
-    - training output : train_set.txt
-    - embeddings(key:value) : word2vec_map.json
+     4. train dataset 
+      - training output : train_set.txt
+      - embeddings(key:value) : word2vec_map.json
     
     
 2. Model code
   
-  1. model.py
-  2. data_loader.py
-  3. preprocessing.py
-  4. ustils.py 
-  5. word2vec.py
+    1. model.py
+    2. data_loader.py
+    3. preprocessing.py
+    4. ustils.py 
+    5. word2vec.py
 
 ```
 [raw data]
@@ -115,7 +114,8 @@ tweet_id,Sentiment,author,content,,,,,,,
 1956967789,Pos,czareaquino,wants to hang out with friends SOON!,,,,,,,
 1956968416,neutral,xkilljoyx,"@dannycastillo We want to trade with someone who has Houston tickets, but no one will.",,,,,,,
 ....
-
+```
+```
 [targeted emotion all sentence among dataset]
 Negative.tsv
 
@@ -128,7 +128,8 @@ Hmmm. is down
 Charlene my love. I miss you
 I'm sorry at least it's Friday?
 ..
-
+```
+```
 [train dataset]
 train_set.csv
 
@@ -138,7 +139,9 @@ train_set.csv
 7,4642
 22,51
 ..
+```
 
+```
 word2vec_map.json
 
 {"*clutches": [-0.40713953971862793, -0.7928721904754639, 0.5400254726409912, -0.7113916873931885, -0.2588541507720947, 0.31255054473876953, 0.3822500705718994, -0.8085153102874756, -0.25881052017211914, -0.8527586460113525, 0.8659896850585938, 0.3053250312805176, 0.06038784980773926, -0.9497530460357666, 0.4123997688293457, 0.5235145092010498, 0.7868549823760986, 0.37369585037231445, -0.8102536201477051, -0.5631704330444336, 0.7328002452850342,.....]}
@@ -148,17 +151,17 @@ word2vec_map.json
 ## Running 
 
 1. Experiment 1 : generating sentence based on 3 emotion label(positive,negative,netural)
-  - 3emo_raw.sh
+    - 3emo_raw.sh
 
 2. Experiment 2-1 : generating sentence based on 1 emotion all dataset 
-  1. Positive : 1emo_pos.sh
-  2. Negative : 1emo_neg.sh
-  3. Neutral  : 1emo_neu.sh
+    1. Positive : 1emo_pos.sh
+    2. Negative : 1emo_neg.sh
+    3. Neutral  : 1emo_neu.sh
   
 3. Experiment 2-2 : genetrating sentence based on 1 emotion only one sentence 
-  1. Positive : 1sent_pos.sh
-  2. Negative : 1sent_neg.sh
-  3. Neutral  : 1sent_neu.sh
+    1. Positive : 1sent_pos.sh
+    2. Negative : 1sent_neg.sh
+    3. Neutral  : 1sent_neu.sh
   
 
 ```
@@ -172,14 +175,14 @@ word2vec_map.json
 
 1. Experiment 1 : generating sentence based on 3 emotion label(positive,negative,netural)
 2. Experiment 2-1 : generating sentence based on 1 emotion all dataset 
-  1. Positive
-  2. Negative
-  3. Neutral
+    1. Positive
+    2. Negative
+    3. Neutral
   
 3. Experiment 2-2 : genetrating sentence based on 1 emotion only one sentence 
-  1. Positive
-  2. Negative
-  3. Neutral
+    1. Positive
+    2. Negative
+    3. Neutral
 
 ```
 Give an example
