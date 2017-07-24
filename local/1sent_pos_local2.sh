@@ -1,0 +1,7 @@
+python model.py \
+--on_cloud=False \
+--word_vec_map_file=/dataset/word2vec_map.json \
+--log_dir=./logs_pos2/ \
+--gpu_num=2 \
+--task=pos_sent \
+--gpu_start=2
