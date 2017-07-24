@@ -5,7 +5,7 @@
 ### Base theory : Relation Network published by DeepMind, 2017
 [Relational Reasoning](https://www.python.org/downloads/release/python-2712) is learning to understand relations between different objects(ideas). This is considered an essential characteristic of intelligence.To this end, Relation Networks (RNs) are proposed to solve problems hinging on inherently relational concepts. To be more specific, RN is a composite function:
 
-<ul><img src="https://github.com/gitlimlab/Relation-Network-Tensorflow/blob/master/figure/rn_eq.png", width=300, align="middle"></ul>
+<ul><img src="https://github.com/gitlimlab/Relation-Network-Tensorflow/blob/master/figure/rn_eq.png", width=300></ul>
 
 
 The Relational Network for O (O is the set of objects you want to learn relations of) is a function fɸ.
