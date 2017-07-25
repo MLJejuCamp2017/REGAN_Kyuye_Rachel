@@ -326,6 +326,7 @@ class WassersteinGAN(object):
             print(seq_dist)
             print()
             print(seq)
+            print()
 
             
 
@@ -353,8 +354,7 @@ class WassersteinGAN(object):
 def main(argv=None):
     gan = WassersteinGAN(critic_iterations=5)
     gan.create_network()                
-    # gan.train_model(FLAGS.epoch)
-    gan.sess.run(tf.global_variables_initializer())
+    gan.train_model(FLAGS.epoch)
     gan.evaluation()
     gan.sess.close()
 
