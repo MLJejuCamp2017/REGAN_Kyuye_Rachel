@@ -1,4 +1,4 @@
-### Kyuye Song's_Machine Learning Camp in Jeju, 2017 
+### Kyuye Song_(MENTOR : Chanwoo Lee) _Machine Learning Camp in Jeju, 2017 
 # Relational GAN (REGAN) : Generating affective sentence using Relation Networks
 
 
@@ -68,7 +68,7 @@ import tensorflow as tf
     <p>
     <p>
     
-    2. targeted emotion all sentence among dataset 
+    2. targeted emotion all sentence among dataset <p>
     
       - Positive emotion : Positive.tsv
       - Negative emotion : Negative.tsv
@@ -76,7 +76,7 @@ import tensorflow as tf
     <p>
     <p>
     
-    3. tageted emotion one sentence among dataset 
+    3. tageted emotion one sentence among dataset <p>
     
       - Positive sentence :<p>
       *men always remember love because of romance only The best love is the kind that awaken the soul that makes us reach for        more that plants the fire in our hearts and brings peace to our minds That's what I hope to give you forever The 
@@ -212,8 +212,8 @@ Please read [READEME.mg](https://github.com/MLJejuCamp2017/REGAN_Kyuye_Rachel) f
 
 ## Authors
 
-* **Kyuye Song(Rahcel)** - *Initial work* - [PurpleBooth](https://github.com/kyuye)
-* **Chanwoo Lee(Jacob)** - *Initial work* - [PurpleBooth](https://github.com/leechanwoo)
+* **Participant, Kyuye Song(Rahcel)** - [Kyuye's github](https://github.com/kyuye)
+* **Mentor, Chanwoo Lee(Jacob)** - [Chanwoo's github](https://github.com/leechanwoo)
 
 
 ## Acknowledgments
