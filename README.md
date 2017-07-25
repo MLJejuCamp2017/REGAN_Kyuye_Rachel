@@ -68,7 +68,7 @@ import tensorflow as tf
     <p>
     <p>
     
-    2. targeted emotion all sentence among dataset 
+    2. targeted emotion all sentence among dataset <p>
     
       - Positive emotion : Positive.tsv
       - Negative emotion : Negative.tsv
@@ -76,7 +76,7 @@ import tensorflow as tf
     <p>
     <p>
     
-    3. tageted emotion one sentence among dataset 
+    3. tageted emotion one sentence among dataset <p>
     
       - Positive sentence :<p>
       *men always remember love because of romance only The best love is the kind that awaken the soul that makes us reach for        more that plants the fire in our hearts and brings peace to our minds That's what I hope to give you forever The 
