@@ -212,8 +212,8 @@ Please read [READEME.mg](https://github.com/MLJejuCamp2017/REGAN_Kyuye_Rachel) f
 
 ## Authors
 
-* **Mentee, Kyuye Song(Rahcel)** - *Initial work* - [Kyuye's github](https://github.com/kyuye)
-* **Mentor, Chanwoo Lee(Jacob)** - *Initial work* - [Chanwoo's github](https://github.com/leechanwoo)
+* **Participant, Kyuye Song(Rahcel)** - [Kyuye's github](https://github.com/kyuye)
+* **Mentor, Chanwoo Lee(Jacob)** - [Chanwoo's github](https://github.com/leechanwoo)
 
 
 ## Acknowledgments
