@@ -1,4 +1,4 @@
-### Kyuye Song's(MENTOR : Chanwoo LEE_Machine Learning Camp in Jeju, 2017 
+### Kyuye Song_(MENTOR : Chanwoo LEE) _Machine Learning Camp in Jeju, 2017 
 # Relational GAN (REGAN) : Generating affective sentence using Relation Networks
 
 
