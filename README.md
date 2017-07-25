@@ -13,7 +13,7 @@ gθ is another function that takes two objects :oi , and oj. The output of gθ i
 Σ i,j means , calculate gθ for all possible pairs of objects, and then sum them up.
 where o represents inidividual object while f and g are functions dealing with relational reasoning which are implemented as MLPs. 
 
-Example : [bAbi task](https://github.com/facebook/bAbI-tasks) using Relation Network] 
+Example : [bAbi task](https://github.com/facebook/bAbI-tasks) using Relation Network
 
 1 Mary moved to the bathroom
 
@@ -100,7 +100,7 @@ import tensorflow as tf
   
     <p>
     <p>
-     4. train dataset 
+    4. train dataset
       - training output : train_set.txt
       - embeddings(key:value) : word2vec_map.json
     
