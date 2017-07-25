@@ -1,4 +1,4 @@
-### Kyuye Song's_Machine Learning Camp in Jeju, 2017 
+### Kyuye Song's(MENTOR : Chanwoo LEE_Machine Learning Camp in Jeju, 2017 
 # Relational GAN (REGAN) : Generating affective sentence using Relation Networks
 
 
@@ -212,8 +212,8 @@ Please read [READEME.mg](https://github.com/MLJejuCamp2017/REGAN_Kyuye_Rachel) f
 
 ## Authors
 
-* **Kyuye Song(Rahcel)** - *Initial work* - [PurpleBooth](https://github.com/kyuye)
-* **Chanwoo Lee(Jacob)** - *Initial work* - [PurpleBooth](https://github.com/leechanwoo)
+* **Mentee, Kyuye Song(Rahcel)** - *Initial work* - [Kyuye's github](https://github.com/kyuye)
+* **Mentor, Chanwoo Lee(Jacob)** - *Initial work* - [Chanwoo's github](https://github.com/leechanwoo)
 
 
 ## Acknowledgments
