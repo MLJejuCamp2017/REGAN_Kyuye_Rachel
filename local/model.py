@@ -316,14 +316,25 @@ class WassersteinGAN(object):
     def evaluation(self):
         gen_data = self.sess.run(self.gen_data)
         
+
+        seq_dist = ""
         seq = ""
         for w in gen_data[0]:
-            seq += self.vec2word(w) + " "
+            word, dist = self.vec2word(w)
+            seq_dist += "{}({}) ".format(word, dist)
+            seq += "{} ".format(word)
+            print(seq_dist)
+            print()
             print(seq)
+
+            
+
+        with open("{}generated_text_with_distance.txt".format(FLAGS.log_dir), 'w') as f:
+            f.write(seq_dist)
 
         with open("{}generated_text.txt".format(FLAGS.log_dir), 'w') as f:
             f.write(seq)
-
+            
         if FLAGS.on_cloud == True: 
             os.system("gsutil -m cp -r generated_text.txt gs://jejucamp2017/logs")
 
@@ -342,7 +353,8 @@ class WassersteinGAN(object):
 def main(argv=None):
     gan = WassersteinGAN(critic_iterations=5)
     gan.create_network()                
-    gan.train_model(FLAGS.epoch)
+    # gan.train_model(FLAGS.epoch)
+    gan.sess.run(tf.global_variables_initializer())
     gan.evaluation()
     gan.sess.close()
 
