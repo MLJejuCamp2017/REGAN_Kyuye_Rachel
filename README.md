@@ -22,13 +22,26 @@ Example : [bAbi task](https://github.com/facebook/bAbI-tasks) using Relation Net
 3 Where is Mary?        bathroom        1
 
 
-### Model : Relational GAN (REGAN) to generate affective sentnece
+### Model : Relational GAN (REGAN) to generate affective sentnece <p>
+    (
+* Motivation <p>
+ I think Relation Networks could analayze all kinds of things in NLP (Grammar,emotion,tone, etc.)
+ I'd like to make dialog-bot which reflects human's emotion,tone,anything using RN&GAN  
+ <p>
+ <p>
+* How (REGAN MOdel) 
+ <p align="center">
+  <img src="http://postfiles1.naver.net/MjAxNzA3MjdfMTQx/MDAxNTAxMDg0NTE1MzA3.oXo8PJXAHr9w-v69X3i54DgsQyM_h6fXhefU5N8jDy4g.0VHfeBt-WYH8336UULjDLVjywiz1YT9FOxdxt-X1xoog.PNG.ivyheart2/REGAN.png?type=w2" width="600"/>
+  </p>
+* Expected output,goal
+ <p align="center">
+  <img src="http://postfiles10.naver.net/MjAxNzA3MjdfMjcx/MDAxNTAxMDg0NTE1ODUz.8a-0vmJxWhnzx_cfxWGE2tK34RWE70ws46jaR4ZejXEg.7k0fxKTngxgNsFeBNnqL4W4d_HEKAVVor8EJdOU_fIAg.PNG.ivyheart2/output.png?type=w2" width="600"/>
+  </p>
+* Contributions
+ <p align="center">
+  <img src="http://postfiles8.naver.net/MjAxNzA3MjdfMTgw/MDAxNTAxMDg0NTE0NDA5.KzmVwfdjicqyRg5V307I_EbdQFZ9B_lohMIOXEf84DMg.gfOq6Q_-mbFBl9eeX1ONsN8NrswGJvk6QIXgSLceDAMg.PNG.ivyheart2/contribution.png?type=w2" width="600"/>
+  </p>
 
-- Motivation
-- Expected output,goal
-- Contributions
-- How (Scenario)
-- Conclusions
 
 
 ### Prerequisites
@@ -100,7 +113,7 @@ import tensorflow as tf
   
     <p>
     <p>
-    4. train dataset
+     4. train dataset
       - training output : train_set.txt
       - embeddings(key:value) : word2vec_map.json
     
@@ -158,8 +171,12 @@ word2vec_map.json
 
 ```
 
-### Running 
+### Training 
 
+<p align="center">
+  <img src="http://postfiles11.naver.net/MjAxNzA3MjdfOTQg/MDAxNTAxMDg0ODk2ODQ3.oCwWzn_NGuBehpdKB3D2O0khlBUYk86cx4SGyKPWn1Ug.D2uQrLWZMjUkAuwAR497x2M_bi5ngdPXTMNMFIHSLvgg.PNG.ivyheart2/parmeter.png?type=w2" width="600"/>
+  </p>
+  
 1. Experiment 1 : generating sentence based on 3 emotion label(positive,negative,netural)
     - 3emo_raw.sh
 
@@ -180,8 +197,12 @@ word2vec_map.json
 ```
 
 
+### Result 
 
-### Result (Modifying)
+* Example of result : Training of negative emotion dataset as a real data
+<p align="center">
+  <img src="http://postfiles6.naver.net/MjAxNzA3MjdfNzMg/MDAxNTAxMDg0ODk3NjU5.21mDcJR7QK-N9fHUELu7vSF67JL2Ys5if3ZV5gkA6ZAg.SlfLX6AIOqbZhUFuV2ddvrGKuIqflMGrLOYdG5tF72Qg.PNG.ivyheart2/result.png?type=w2" width="600"/>
+  </p>
 
 1. Experiment 1 : generating sentence based on 3 emotion label(positive,negative,netural)
 2. Experiment 2-1 : generating sentence based on 1 emotion all dataset 
