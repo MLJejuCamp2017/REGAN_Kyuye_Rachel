@@ -23,21 +23,21 @@ Example : [bAbi task](https://github.com/facebook/bAbI-tasks) using Relation Net
 
 
 ### Model : Relational GAN (REGAN) to generate affective sentnece <p>
-    (
-* Motivation <p>
+   
+ * Motivation <p>
  I think Relation Networks could analayze all kinds of things in NLP (Grammar,emotion,tone, etc.)
  I'd like to make dialog-bot which reflects human's emotion,tone,anything using RN&GAN  
  <p>
  <p>
-* How (REGAN MOdel) 
+ * How (REGAN MOdel) <p>
  <p align="center">
   <img src="http://postfiles1.naver.net/MjAxNzA3MjdfMTQx/MDAxNTAxMDg0NTE1MzA3.oXo8PJXAHr9w-v69X3i54DgsQyM_h6fXhefU5N8jDy4g.0VHfeBt-WYH8336UULjDLVjywiz1YT9FOxdxt-X1xoog.PNG.ivyheart2/REGAN.png?type=w2" width="600"/>
   </p>
-* Expected output,goal
+ * Expected output,goal <p>
  <p align="center">
   <img src="http://postfiles10.naver.net/MjAxNzA3MjdfMjcx/MDAxNTAxMDg0NTE1ODUz.8a-0vmJxWhnzx_cfxWGE2tK34RWE70ws46jaR4ZejXEg.7k0fxKTngxgNsFeBNnqL4W4d_HEKAVVor8EJdOU_fIAg.PNG.ivyheart2/output.png?type=w2" width="600"/>
   </p>
-* Contributions
+ * Contributions <p>
  <p align="center">
   <img src="http://postfiles8.naver.net/MjAxNzA3MjdfMTgw/MDAxNTAxMDg0NTE0NDA5.KzmVwfdjicqyRg5V307I_EbdQFZ9B_lohMIOXEf84DMg.gfOq6Q_-mbFBl9eeX1ONsN8NrswGJvk6QIXgSLceDAMg.PNG.ivyheart2/contribution.png?type=w2" width="600"/>
   </p>
