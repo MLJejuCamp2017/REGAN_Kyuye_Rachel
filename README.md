@@ -39,7 +39,7 @@ Example : [bAbi task](https://github.com/facebook/bAbI-tasks) using Relation Net
   </p>
  * Contributions <p>
  <p align="center">
-  <img src="http://postfiles8.naver.net/MjAxNzA3MjdfMTgw/MDAxNTAxMDg0NTE0NDA5.KzmVwfdjicqyRg5V307I_EbdQFZ9B_lohMIOXEf84DMg.gfOq6Q_-mbFBl9eeX1ONsN8NrswGJvk6QIXgSLceDAMg.PNG.ivyheart2/contribution.png?type=w2" width="600"/>
+  <img src="http://postfiles2.naver.net/MjAxNzA3MjdfMTYg/MDAxNTAxMDg1NzQ4NTE3.TnDCz7x3nlrdnQtIX71bsqaGPKmLCZExv0qey7JIMdMg.YeOLbv49u6Qt9qf0H8291wYbG97GtdVcM6O6pnsxK-Ag.PNG.ivyheart2/CONTRIBUTIONS.png?type=w2" width="600"/>
   </p>
 
 
